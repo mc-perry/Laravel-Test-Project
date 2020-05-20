@@ -13,13 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     $name = request('name');
-//     return $name;
-//     return view('test', [
-//         'name' == $name
-//     ]);
-// });
+Route::get('/', function () {
+    $name = request('name');
+    return $name;
+    return view('test', [
+        'name' == $name
+    ]);
+});
 
 // Route::get('/welcome', function () {
 //     return view('welcome');
