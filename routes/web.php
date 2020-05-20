@@ -21,13 +21,13 @@ Route::get('/', function () {
     ]);
 });
 
-// Route::get('/welcome', function () {
-//     return view('welcome');
-// });
+Route::get('/welcome', function () {
+    return view('welcome');
+});
 
-// Route::get('/test', function() {
-//     return view('test');
-// });
+Route::get('/contact', function() {
+    return view('contact');
+});
 
 
 Route::get('/posts/{post}', 'PostsController@show');
