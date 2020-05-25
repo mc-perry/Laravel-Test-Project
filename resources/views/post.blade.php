@@ -3,10 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        <title>My Blog Post</title>
     </head>
     <body>
-        <h1>{{ $post }}</h1>
+        <h1>My Blog Post</h1>
+        <p>{{ $post->body }}</p>
     </body>
 </html>

@@ -17,7 +17,7 @@ class PostsController
         ];
 
         if (!array_key_exists($post, $posts)) {
-            abort(404, 'Sorry, that post was not foudn');
+            abort(404, 'Sorry, that post was not found');
         }
 
         return view('post', [
